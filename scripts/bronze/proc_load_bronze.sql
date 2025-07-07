@@ -5,11 +5,15 @@
      - Performs a full load of raw data into the Bronze layer from flat CSV files.
      - Loads data from CRM and ERP systems into staging tables.
      - Truncates existing records before inserting new data using BULK INSERT.
-     - Logs messages for each stage and captures any errors during the process.
-
+     - Log messages for each stage and capture any errors during the process.
+Parameters:
+	-None
+	- This stored procedure does not accept or return any values
  WARNING:
      This is a full load. All existing data in the bronze tables will be deleted 
      before new data is loaded.
+Usage Example:
+	EXEC bronze.load_bronze;
 ===============================================================================
 */
 
