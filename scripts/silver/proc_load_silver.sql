@@ -2,11 +2,10 @@
 ===============================================================================
  Procedure:    silver.load_silver
  Description:  
-     - Performs a full load of transformed and cleaned data into the Silver layer.
+     - Performs ETL (Extract, Transform, Load) process to load data into the Silver layer.
      - Extracts data from the Bronze layer and applies cleaning, standardization,
        type casting, and business logic transformations.
      - Truncates existing records before inserting new data into Silver tables.
-     - Log messages for each stage and capture any errors during the process.
 Parameters:
     - None
     - This stored procedure does not accept or return any values
