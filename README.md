@@ -13,7 +13,9 @@ This project demonstrates an end-to-end **ETL pipeline** built using the **Medal
 
 ---
 
-## 🖼️ Architecture
+<h2> 
+  <img src = "https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-q6MntkdofBNJX6YtyVOvAFVuSjUIRk.png&w=320&q=75" width = "30" />
+  Architecture </h2>
 
 The warehouse follows the **Medallion Architecture** pattern, which divides data into Bronze, Silver, and Gold layers. Each layer represents a distinct stage of data processing and transformation.
 
