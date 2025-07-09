@@ -89,7 +89,7 @@ The flow of data through the warehouse is shown below:
   
 - **Object Type**: Views  
 - **Purpose**: Business-facing model for analytics  
-- **ETL Action**: Logical views, no data duplication  
+- **ETL Action**: Logical views  
 - **Transformations**:  
   - Data integration across domains  
   - Business logic and aggregation  
