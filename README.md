@@ -68,7 +68,7 @@ The flow of data through the warehouse is shown below:
 - **Object Type**: Tables  
 - **Purpose**: Ingest raw CSVs using batch processing  
 - **ETL Action**: `TRUNCATE + BULK INSERT`  
-- **Transformations**: ❌ None  
+- **Transformations**: None  
 
 <h3>
   <img src = "https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-FuyDPaLKBrjIiOmneRjZ5p1n5k6Nw1.png&w=320&q=75" width = "40" />
@@ -134,10 +134,10 @@ The Gold layer presents data in a **denormalized** format designed for **OLAP**,
 
 The warehouse supports the following downstream use cases:
 
-- 📈 **Business Intelligence Dashboards** 
-- 🔍 **Ad-Hoc SQL Analytics**
-- 🤖 **Machine Learning Models** 
-- 🧠 **Data Exploration for Analysts & Scientists**
+-  **Business Intelligence Dashboards** 
+-  **Ad-Hoc SQL Analytics**
+-  **Machine Learning Models** 
+-  **Data Exploration for Analysts & Scientists**
 
 ---
 
