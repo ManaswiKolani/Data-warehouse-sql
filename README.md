@@ -31,7 +31,7 @@ The warehouse adheres to the **Medallion Architecture** pattern, which categoriz
   Data Ingestion </h2>
 
 <h3> 
-  <img src = "https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-E6UN0DhtLJwxusfI6hIZaLplYkWH2W.png&w=320&q=75" wifth = "30" />
+  <img src = "https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-E6UN0DhtLJwxusfI6hIZaLplYkWH2W.png&w=320&q=75" width = "30" />
   Source Systems</h3> 
 
 Data is ingested from two structured source systems:
