@@ -3,10 +3,10 @@
   SQL Data Warehouse with Medallion Architecture
 </h1>
 
-
-# 🏗️ 
-
-## 📘 Overview
+ <h2> 
+ <img src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-H3zVpKzbK29AtbWl2npvIMnpDjJqkl.png&w=320&q=75" width="60"/>
+Overview
+ <h2>
 
 This project demonstrates an end-to-end **ETL pipeline** built using the **Medallion Architecture** within **Microsoft SQL Server** and **SQL Server Management Studio (SSMS)**. The solution transforms raw CRM and ERP datasets (in CSV format) into a clean, analytical **data warehouse** optimized for **BI**, **ad-hoc queries**, and **machine learning**.
 
